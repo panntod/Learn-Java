@@ -127,24 +127,27 @@ interface pan{
 }
 ```
 
-inheritance adalah cara menumpuk code persis seperti superclass nya (jadi apapun yg ada diindukan juga turun ke anakannya)
-inheritance memiliki ciri2 yaitu menggunakan extends
+4.apa itu `inheritance`?
+jawaban:
+
+`inheritance` adalah cara menumpuk code persis seperti superclass nya (jadi apapun yg ada di indukan juga turun ke anakannya)
+`inheritance` memiliki ciri2 yaitu menggunakan extends
 contoh penerapan:
-public class luas{
-int luas(){
-sout("Hitung Luas");
-return 0;
+```java
+public class Luas{
+    int luas(){
+        System.out.println("Hitung Luas");
+        return 0;
+    }
 }
-}
 
-    class persegi extends luas{
-        int s;
+class persegi extends Luas{
+    int sisi;
 
-        public int luas(){
-            sout(s*s)
-            return luas;
-        }
-
+    public int luas(){
+        System.out.println(sisi * sisi)
+        return luas;
     }
 
-    SEMANGAT PRA UKL, SEMOGA PAHAM!! :)
+}
+```
