@@ -24,22 +24,42 @@ Pastikan sudah menginstal Code editor di laptop masing masing, disini saya mengg
 - constructor
 - polimorphisme
 
-1. sebutkan apa itu enkapulasi?
+1. sebutkan apa itu `enkapulasi`?
    jawaban:
 
-cintih modifier ada 4 dan jiliskin:
-public : bisa diakses dimana pun, paling fleksibel
-protected : hanya bisa diakses dari superclass, subclass, beda file
-no modifier(kosongan) : bisa diakses disubclass dan class itu sendiri
-private : hanya bisa diakses dari class itu sendiri (paling introvert)
+contoh modifier ada 4 yaitu:
+`public` : bisa diakses dimana pun, paling fleksibel
+`protected` : hanya bisa diakses dari superclass, subclass, beda file
+`no modifier` (kosongan) : bisa diakses disubclass dan class itu sendiri
+`private` : hanya bisa diakses dari class itu sendiri (paling introvert)
 
 contoh penerapan:
-public static void pan(){}
-protected String pin(){}
-void pinpan(){}
-private relationship(){}
+public:
+```java
+public static void main(){
+    // add Code TODO Here
+}
+```
+protected:
+```java
+protected String pin(){
+    // add Code TODO Here
+}
+```
+no modifier:
+```java
+void pinpan(){
+    // add Code TODO Here
+}
+```
+private:
+```java
+private relationship(){
+    // add Code TODO Here   
+}
+```
 
-2. apa itu getter setter?
+2. apa itu `getter` `setter`?
    jawaban:
 
 dari namanya bisa diketahui bahwa getter untuk mendapatkan dan setter untuk meng-set sesuatu. hanya bisa digunakan di private class, karena
