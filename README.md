@@ -1,4 +1,4 @@
-# Persiapan Pra Ukl Java
+# Persiapan Pra Ukl Java Kelas 10 - SMK TELKOM MALANG
 
 ## Deskripsi
 
@@ -14,15 +14,15 @@ Pastikan sudah menginstal Java msi atau download menggunakan link:
 
 Pastikan sudah menginstal Code editor di laptop masing masing, disini saya menggunakan Apache Netbeans atau download menggunakan link:
 
-[Download Apache Netbeans for Windows](https://dlcdn.apache.org/netbeans/netbeans-installers/20/Apache-NetBeans-20r1-bin-windows-x64.exe).
+[Download Apache Netbeans for Windows v20](https://dlcdn.apache.org/netbeans/netbeans-installers/20/Apache-NetBeans-20r1-bin-windows-x64.exe).
 
 ## Pembahasan
 
-- modifier
-- getter
-- setter
-- constructor
-- polimorphisme
+- Modifier
+- Getter
+- Setter
+- Constructor
+- Polimorphisme
 
 1. sebutkan apa itu `enkapulasi`?
    jawaban:
