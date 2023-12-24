@@ -85,9 +85,9 @@ contoh penerapan:
 ```java
 public class hts{
 
-public hts(){
-System.out.println("yah kasihan hts mulu ga pernah jadian");
-}
+    public hts(){
+        System.out.println("yah kasihan hts mulu ga pernah jadian");
+    }
 }
 ```
 
