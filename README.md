@@ -16,13 +16,18 @@ Pastikan sudah menginstal Code editor di laptop masing masing, disini saya mengg
 
 [Download Apache Netbeans for Windows](https://dlcdn.apache.org/netbeans/netbeans-installers/20/Apache-NetBeans-20r1-bin-windows-x64.exe).
 
+## Pembahasan
 
-modifier, getter setter, constructor, polimorphisme
+- modifier
+- getter
+- setter
+- constructor
+- polimorphisme
 
 1. sebutkan apa itu enkapulasi?
-jawaban: 
+   jawaban:
 
-cintih modifier ada 4 dan jiliskin: 
+cintih modifier ada 4 dan jiliskin:
 public : bisa diakses dimana pun, paling fleksibel
 protected : hanya bisa diakses dari superclass, subclass, beda file
 no modifier(kosongan) : bisa diakses disubclass dan class itu sendiri
@@ -35,18 +40,18 @@ void pinpan(){}
 private relationship(){}
 
 2. apa itu getter setter?
-jawaban:
+   jawaban:
 
 dari namanya bisa diketahui bahwa getter untuk mendapatkan dan setter untuk meng-set sesuatu. hanya bisa digunakan di private class, karena
 private class tidak bisa dipanggil dari class lain (Istilah gampangnya orang dalam)
 
 contoh penerapan getter setter:
 public void setNama(String nama){
-    this.namaMember.add(nama);
+this.namaMember.add(nama);
 }
 
 public String getNama(int idMember){
-    return this.namaMember.get(idMember);
+return this.namaMember.get(idMember);
 }
 
 3.apa itu constructor?
@@ -54,9 +59,9 @@ jawaban:
 
 constructor adalah nilai default dari sebuah codingan, contoh penerapan:
 public class hts{
-    public hts(){
-        sout("yah kasihan hts mulu ga pernah jadian");
-    }
+public hts(){
+sout("yah kasihan hts mulu ga pernah jadian");
+}
 }
 
 4.apa itu polimorphisme?
@@ -70,10 +75,10 @@ interface memiliki ciri2 yaitu ada tambahan implements di nama classnya
 
 contoh penerapan:
 interface pan{
-    *ada dua cara membuat nya yaitu dengan interface/ abstrak
-    public interface cina{
-        public void marga(String xu);
-        public void suku(String hokkian);
+\*ada dua cara membuat nya yaitu dengan interface/ abstrak
+public interface cina{
+public void marga(String xu);
+public void suku(String hokkian);
 
         public String getMarga(int idMarga);
     }
@@ -86,30 +91,31 @@ interface pan{
         }
 
         public abstract String getMarga(int idMarga){
-        
+
         }
-        
+
     }
+
 }
 
 inheritance adalah cara menumpuk code persis seperti superclass nya (jadi apapun yg ada diindukan juga turun ke anakannya)
 inheritance memiliki ciri2 yaitu menggunakan extends
 contoh penerapan:
-    public class luas{
-        int luas(){
-        sout("Hitung Luas");
-        return 0; 
-        }
-    }
+public class luas{
+int luas(){
+sout("Hitung Luas");
+return 0;
+}
+}
 
     class persegi extends luas{
         int s;
-        
+
         public int luas(){
             sout(s*s)
             return luas;
         }
-    
+
     }
 
     SEMANGAT PRA UKL, SEMOGA PAHAM!! :)
