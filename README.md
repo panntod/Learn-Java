@@ -91,21 +91,23 @@ System.out.println("yah kasihan hts mulu ga pernah jadian");
 }
 ```
 
-4.apa itu polimorphisme?
+4.apa itu `polimorphisme`?
 jawaban:
 
-polimorphisme adalah pewarisan dari sebuah code ke code lain
-ada dua polimorphisme yaitu interface dan inheritance
+`polimorphisme` adalah pewarisan dari sebuah code ke code lain, ada dua `polimorphisme` yaitu interface dan inheritance
 
-interface adalah bentuk awal yang abstrak/tidak berbentuk, supaya code tsb tidak eror harus dibentuk setiap fungsi yg ada didalamnnya
+`interface` adalah bentuk awal yang abstrak/ tidak berbentuk, supaya code tersebut tidak eror harus dibentuk setiap fungsi yg ada didalamnnya
 interface memiliki ciri2 yaitu ada tambahan implements di nama classnya
 
+
 contoh penerapan:
+```java
 interface pan{
-\*ada dua cara membuat nya yaitu dengan interface/ abstrak
-public interface cina{
-public void marga(String xu);
-public void suku(String hokkian);
+
+    *ada dua cara membuat nya yaitu dengan interface/ abstrak
+    public interface cina{
+        public void marga(String xu);
+        public void suku(String hokkian);
 
         public String getMarga(int idMarga);
     }
@@ -114,16 +116,16 @@ public void suku(String hokkian);
     public abstract class cina{
         public abstract void marga(String xu);
         public void suku(String hokkian){
-
+            // add Code TODO Here  
         }
 
         public abstract String getMarga(int idMarga){
-
+            // add Code TODO Here  
         }
 
     }
-
 }
+```
 
 inheritance adalah cara menumpuk code persis seperti superclass nya (jadi apapun yg ada diindukan juga turun ke anakannya)
 inheritance memiliki ciri2 yaitu menggunakan extends
