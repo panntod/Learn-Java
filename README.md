@@ -1,3 +1,15 @@
+# Persiapan Pra Ukl Java
+
+## Deskripsi
+
+Dalam repo ini, berisikan documentation belajar java pribadi saya untuk mempermudah belajar bagi pemula untuk mendalami bahasa pemrograman java, materi ini didapat dari [Materi SMK Telkom Malang](https://www.smktelkom-mlg.sch.id/).
+
+### Installation
+
+Pastikan sudah menginstal Java msi atau download menggunakan link:
+
+[Download Java for Windows](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=249203_b291ca3e0c8548b5a51d5a5f50063037).
+
 
 modifier, getter setter, constructor, polimorphisme
 
