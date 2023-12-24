@@ -77,15 +77,19 @@ return this.namaMember.get(idMember);
 }
 ```
 
-3.apa itu constructor?
+3.apa itu `constructor`?
 jawaban:
 
-constructor adalah nilai default dari sebuah codingan, contoh penerapan:
+`constructor` adalah nilai default dari sebuah class, jadi nama constructor harus sesuai dengan nama class yang dimiliki
+contoh penerapan:
+```java
 public class hts{
+
 public hts(){
-sout("yah kasihan hts mulu ga pernah jadian");
+System.out.println("yah kasihan hts mulu ga pernah jadian");
 }
 }
+```
 
 4.apa itu polimorphisme?
 jawaban:
