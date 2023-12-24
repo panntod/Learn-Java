@@ -77,7 +77,7 @@ return this.namaMember.get(idMember);
 }
 ```
 
-3.apa itu `constructor`?
+3. apa itu `constructor`?
 jawaban:
 
 `constructor` adalah nilai default dari sebuah class, jadi nama constructor harus sesuai dengan nama class yang dimiliki
@@ -91,7 +91,7 @@ public class hts{
 }
 ```
 
-4.apa itu `polimorphisme`?
+4. apa itu `polimorphisme`?
 jawaban:
 
 `polimorphisme` adalah pewarisan dari sebuah code ke code lain, ada dua `polimorphisme` yaitu interface dan inheritance
@@ -127,7 +127,7 @@ interface pan{
 }
 ```
 
-4.apa itu `inheritance`?
+5. apa itu `inheritance`?
 jawaban:
 
 `inheritance` adalah cara menumpuk code persis seperti superclass nya (jadi apapun yg ada di indukan juga turun ke anakannya)
