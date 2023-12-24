@@ -151,3 +151,5 @@ class persegi extends Luas{
 
 }
 ```
+
+contoh penerapan code [ContohSoalPraUKL](https://github.com/panntod/Belajar-Java/blob/main/src/belajarjava/ContohSoalPraUkl.java)
