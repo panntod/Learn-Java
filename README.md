@@ -62,17 +62,20 @@ private relationship(){
 2. apa itu `getter` `setter`?
    jawaban:
 
-dari namanya bisa diketahui bahwa getter untuk mendapatkan dan setter untuk meng-set sesuatu. hanya bisa digunakan di private class, karena
-private class tidak bisa dipanggil dari class lain (Istilah gampangnya orang dalam)
+dari namanya bisa diketahui bahwa `getter` untuk mendapatkan dan `setter` untuk mengsetting sesuatu. hanya bisa digunakan di private class, karena private class tidak bisa dipanggil dari class lain (istilah gampangnya orang dalam)
 
-contoh penerapan getter setter:
+contoh penerapan `setter`:
+```java
 public void setNama(String nama){
 this.namaMember.add(nama);
 }
-
+```
+contoh penerapan `getter`:
+```java
 public String getNama(int idMember){
 return this.namaMember.get(idMember);
 }
+```
 
 3.apa itu constructor?
 jawaban:
