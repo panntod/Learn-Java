@@ -10,6 +10,12 @@ Pastikan sudah menginstal Java msi atau download menggunakan link:
 
 [Download Java for Windows](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=249203_b291ca3e0c8548b5a51d5a5f50063037).
 
+### Code Editor
+
+Pastikan sudah menginstal Code editor di laptop masing masing, disini saya menggunakan Apache Netbeans atau download menggunakan link:
+
+[Download Apache Netbeans for Windows](https://dlcdn.apache.org/netbeans/netbeans-installers/20/Apache-NetBeans-20r1-bin-windows-x64.exe).
+
 
 modifier, getter setter, constructor, polimorphisme
 
