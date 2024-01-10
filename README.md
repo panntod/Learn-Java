@@ -115,8 +115,11 @@ interface pan{
 
         public String getMarga(int idMarga);
     }
+```
 
-    *jika disuruh merubah ke codingan abstract
+jika disuruh merubah ke codingan abstract
+
+```java
     public abstract class cina{
         public abstract void marga(String xu);
         public void suku(String hokkian){
