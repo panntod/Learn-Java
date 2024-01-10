@@ -28,6 +28,7 @@ Pastikan sudah menginstal Code editor di laptop masing masing, disini saya mengg
    jawaban:
 
 contoh modifier ada 4 yaitu:
+
 `public` : bisa diakses dimana pun, paling fleksibel
 
 `protected` : hanya bisa diakses dari superclass, subclass, beda file
